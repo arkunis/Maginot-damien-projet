@@ -1,7 +1,37 @@
-p{
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(20, 20, 20);
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+
+table,
+td {
+    border: 1px solid #333;
     color: white;
 }
-a{
-    text-decoration: none;
-    color:white
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+.clear{
+    clear: both;
 }
