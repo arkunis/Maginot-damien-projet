@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/all.css">
     <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>GOTHAM</title>
 </head>
 
@@ -14,41 +15,49 @@
         <h1>
             <a href="../index.html">GOTHAM</a>
         </h1>
-        <p><a href="https://www.batman-legend.com/focus-gotham-city-cite-tragique-batman/" target="_blank">Sources</a>
-        </p>
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <div class="marquee-rtl">
+                <!-- le contenu défilant -->
+                <div>
+                    <a href="https://www.batman-legend.com/focus-gotham-city-cite-tragique-batman/"
+                        target="_blank">Batman Legend</a> /
+                    <a href="https://fr.wikipedia.org/wiki/Batman" target="_blank">Wikipedia</a>
+                </div>
+            </div>
+        </div>
+
     </header>
 
     <main>
         <nav>
             <h2>Menu</h2>
             <a href="../index.html" target="_blank">Accueil</a>
-            <a href="../index.html" target="_blank">Accueil</a>
-            <a href="../index.html" target="_blank">Accueil</a>
-            <a href="../index.html" target="_blank">Accueil</a>
-            <a href="../index.html" target="_blank">Accueil</a>
+            <a href="../html/page_2.html" target="_blank">Arkham</a>
+            <a href="../html/page_3.html" target="_blank">Metropolis</a>
         </nav>
         <section>
 
             <!--batarticle-->
             <article class="batarticle">
-                <h1>Son histoire</h1>
+                <h1 id="gothamhistoire">Son histoire</h1>
 
                 <div class="droite">
                     <p> La genèse imaginaire de Gotham City se situe aux alentours de la fin du 19ème siècle où les
-                        trois familles Cobblepot, Wayne et Elliot (les “Pères Fondateurs” de la ville) bâtirent les
-                        trois ponts surnommés Portes de Gotham (voir l’arc narratif du même nom paru en 2011, scénarisé
-                        par Scott Snyder) pour rejoindre l’île centrale, cœur de la ville. <br /><br />
+                        trois familles Cobblepot, Wayne et Elliot (<i>les “Pères Fondateurs” de la ville</i>) bâtirent les
+                        trois ponts surnommés Portes de Gotham (<i>voir l’arc narratif du même nom paru en 2011, scénarisé
+                        par Scott Snyder</i>) pour rejoindre l’île centrale, cœur de la ville. <br /><br />
 
                         Cependant, des origines bien plus occultes de Gotham City sont explorées par l’arc narratif de
                         Peter Milligan de 1990 dans Dark Knight, Dark City, qui révèle que certains de ces Pères
-                        Fondateurs sont impliqués dans l’invocation d’un démon chauve-souris (sourire) vieux de 40 000
+                        Fondateurs sont impliqués dans l’invocation d’un démon chauve-souris (<i>sourire</i>) vieux de 40 000
                         ans, lequel se retrouva piégé sous la Vieille Ville de Gotham, son influence sombre se répandant
                         alors que Gotham City se développait.<br /><br />
 
                         Le syndrome du cimetière indien… Stephen King lui-même ne renierait pas de telles origines
-                        (attention au clown démoniaque) d’une cité à la limite de la malédiction.<br /><br />
+                        (<i>attention au clown démoniaque</i>) d’une cité à la limite de la malédiction.<br /><br />
 
-                        Une cité qui avant même sa naissance attendrait le libérateur (ange ou démon) qui viendrait
+                        Une cité qui avant même sa naissance attendrait le libérateur (<i>ange ou démon</i>) qui viendrait
                         combattre cette malédiction.
 
                     </p>
@@ -69,8 +78,8 @@
                                     <th>Adaptation </th>
                                     <td><img src="../media/tableau/Gotham_TAS.jpg" alt="Gotham tas" /></td>
                                     <td><img src="../media/tableau/Gotham_Burton.jpg" alt="Gotham Burton" /></td>
-                                    <td><img src="../media/tableau/Gotham_Schumacher.jpg" alt="Gotham film Schumacher" />
-                                    </td>
+                                    <td><img src="../media/tableau/Gotham_Schumacher.jpg"
+                                            alt="Gotham film Schumacher" /></td>
                                     <td><img src="../media/tableau/Gotham_Nolan.jpg" alt="Gotham Nolan" /></td>
                                     <td><img src="../media/tableau/Gotham_Snyder.jpg" alt="Gotham Snyder" /></td>
                                 </tr>
@@ -95,14 +104,14 @@
             <!--batarticle 2-->
             <div class="clear"></div>
             <article class="batarticle2">
-                <h1>Son Défenseur</h1>
+                <h1 id="batman">Son Défenseur</h1>
 
                 <div class="gauche">
                     <p> <b>Bruce Wayne</b>, alias <b>Batman</b>, est un super-héros de fiction appartenant à l'univers
                         de DC Comics. Créé par le dessinateur <b>Bob Kane</b> et le scénariste Bill Finger,
                         il apparaît pour la première fois dans le comic book Detective Comics no 27 en 1939 — mai 1939
                         comme date sur la couverture mais la date réelle de parution est le 30 mars 1939 —
-                        sous le nom de The Bat-Man. Bien que ce soit le succès de Superman qui ait mené sa création, il
+                        sous le nom de The Bat-Man. Bien que ce soit le succès de <a href="../html/page_3.html#superman">Superman</a> qui ait mené sa création, il
                         se détache de ce modèle puisqu'il n'a aucun pouvoir surhumain.<br /><br />
                         Batman n'est en effet qu'un simple humain qui a décidé de lutter contre le crime après avoir vu
                         ses parents se faire abattre par un voleur dans une ruelle,
@@ -111,29 +120,44 @@
                         comme Robin, son majordome Alfred Pennyworth ou encore le commissaire de police James
                         Gordon.<br /><br />
 
-                        Batman travaille également régulièrement avec Superman (du même univers de Comics) malgré
+                        Batman travaille également régulièrement avec Superman (<i>du même univers de Comics</i>) malgré
                         plusieurs divergences d'opinions entre eux sur des techniques de lutte contre le crime.
                         Batman a fait partie de plusieurs équipes : la Société de justice d'Amérique, la Ligue de
                         justice d'Amérique et les Outsiders. Des surnoms lui sont parfois accolés :
-                        The Caped Crusader, The Dark Knight, The World's Greatest Detectiven 1, ou encore en français,
+                        The Caped Crusader, The Dark Knight, The World's Greatest Detectiven, ou encore en français,
                         le Justicier masqué, l'Homme chauve-souris ou le Chevalier Noir. <br /><br />
                         Toute une série de super-vilains s'opposent régulièrement à lui. Selon les occasions, ces
                         derniers s'attaquent mutuellement ou s'entraident quelquefois pour lui nuire.
-                        Parmi les ennemis récurrents de Batman se trouvent le Joker, Double-Face, l'Épouvantail, Bane,
+                        Parmi les ennemis récurrents de Batman se trouvent <a href="../html/page_2.html#joker">le Joker</a>, Double-Face, l'Épouvantail, Bane,
                         Ra's al Ghul, le Sphinx ou le Pingouin.
 
                     </p>
                     <img src="../media/quote/batman.jpg" alt="batman" />
                 </div>
+            </article>
+
+
+            <article class="batarticle">
+
+                <h1>Je suis la vengeance</h1>
+                <video controls id="batvideo">
+                    <source src="../media/video/The Batman _ ''Je Suis La Veangeance'' VF.mp4"
+                        alt="le chevalier noir en action">
+                </video>
 
                 <details>
-                    <summary>Source(s)</summary>
+                    <summary style="color: rgb(121, 0, 0);">Ce contenu n'est pas pour les âmes sensibles !</summary>
                     <figure>
                         <div class="centrer">
-                            <a href="https://fr.wikipedia.org/wiki/Batman" target="_blank">wikipedia</a>
+                            <video controls style="width: 40%;">
+                                <source src="../media/video/c81eec4357d7c61de62ca783555f440a.mp4"
+                                    alt="le chevalier noir en action">
+                            </video>
                         </div>
                     </figure>
                 </details>
+
+
             </article>
 
 
@@ -142,7 +166,7 @@
 
 
     <footer>
-        <p>Copyright - <a href="#" class="box">LE CHEVALIER NOIR</a></p>
+        <p>Made with <i class="material-icons" style="font-size: 100%;">favorite</i> - <b>LE CHEVALIER NOIR</b></p>
     </footer>
 </body>
 

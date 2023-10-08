@@ -35,3 +35,20 @@ tfoot {
 .clear{
     clear: both;
 }
+.material-icons{
+    color: red;
+    vertical-align:text-bottom;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    opacity: 0.6;
+}
+b{
+    color:black;
+}
+i{
+    color: black;
+}
