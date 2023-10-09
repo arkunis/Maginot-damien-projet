@@ -92,6 +92,9 @@ html {
         flex-direction: row;
         flex-wrap: wrap;
     }
+    .text{
+        color: white;
+    }
 
     section {
         display: flex;
