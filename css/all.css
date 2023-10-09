@@ -42,9 +42,12 @@ tfoot {
 
 footer{
     display: flex;
-    justify-content: center;
     width: 100%;
     opacity: 0.6;
+    flex-direction: row-reverse;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
 }
 b{
     color:black;

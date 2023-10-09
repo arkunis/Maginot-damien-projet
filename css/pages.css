@@ -7,7 +7,11 @@
     background-color: rgb(240, 240, 240);
 }
 
-#metro a {
+#metro div {
+    color: black;
+}
+
+#metro header a {
     color: black;
 }
 
@@ -46,12 +50,22 @@
     background-color: rgba(133, 158, 207, 0.7);
 }
 
-#metro .closebtn{
-    color:black;
+#metro .closebtn {
+    color: black;
 }
-#metro .closebtn:hover{
-    color:#86a1de;
+
+#metro .closebtn:hover {
+    color: #86a1de;
 }
+
+#metro footer p {
+    color: black;
+}
+
+#metro footer a {
+    color: black;
+}
+
 /* Fin fond metropolis */
 
 body {
