@@ -1,24 +1,25 @@
 ﻿# BatSite
 ## Index
 Dans la conception du site web, je suis partie sur le thème de gotham dans l'univers **batman**.  
-Sur mon **index.html** je suis partie sur une disposition en flex pour avoir 4 images au total. 
-![2 images qui se superpose](https://i.postimg.cc/25WL6ttp/2023-10-10-11-49-01-GOTHAM-Opera.png)
+Sur mon **index.html** je suis partie sur une disposition en flex pour avoir 4 images au total.  
+![2 images qui se superpose](https://i.postimg.cc/25WL6ttp/2023-10-10-11-49-01-GOTHAM-Opera.png)  
 >J'ai fixé la taille des articles avec un ID #slides pour qu'il y est seulement 2 images l'une a coté de l'autre.
 
-Pour ajouter un effet et ne pas laisser la page sans vie, il y a un *:hover* sur les images, qui, quand on passe la souris dessus nous affiche un brève description tout en déplaçant l'image vers le haut en y ajoutant un **hidden** pour la cacher.
-![mon hover](https://i.postimg.cc/zG8RBpr3/2023-10-10-11-55-01-GOTHAM-Opera.png)
+Pour ajouter un effet et ne pas laisser la page sans vie, il y a un *:hover* sur les images, qui, quand on passe la souris dessus nous affiche un brève description tout en déplaçant l'image vers le haut en y ajoutant un **hidden** pour la cacher.  
+![mon hover](https://i.postimg.cc/zG8RBpr3/2023-10-10-11-55-01-GOTHAM-Opera.png)  
  Pour encore mettre du dynamisme dans la page, un effet *jittery* à été placé sur mes boutons avec comme indication un mouvement de grossissement et de gauche à droite via des **@keyframes**
  ## Page_1
 Pour la mise en page du thème principal, j'ai pensée à un style "minimaliste" en séparant mes différentes sections de manière distinct.
 
 ### En premier lieu on y trouve le **header**
-![bat header](https://i.postimg.cc/xdKfzV32/2023-10-10-11-59-37-GOTHAM-Opera.png)J'ai ajouté un flex pour que mon **H1** et mon alert soit centré et espacé (*space-between*)
+![bat header](https://i.postimg.cc/xdKfzV32/2023-10-10-11-59-37-GOTHAM-Opera.png)  
+J'ai ajouté un flex pour que mon **H1** et mon alert soit centré et espacé (*space-between*)
 Pour la zone *alert*, un effet de défilement de texte à été posé sur la balise *div*.
 ### Le menu
-![Bat menu](https://i.postimg.cc/Wby2zLH5/2023-10-10-11-59-49.png)
-Pour la barre de navigation du site, tout en restant minimaliste, j'y est posé des titres et des balises *a* pour les rendre cliquable. Le disposition est mis en `flex-direction:column;`. Pour plus de décoration, un personnage a été attaché sur le coin gauche du site tout au long de la navigation (*qui s'enlèvera en version mobile*). 
+![Bat menu](https://i.postimg.cc/Wby2zLH5/2023-10-10-11-59-49.png)  
+Pour la barre de navigation du site, tout en restant minimaliste, j'y est posé des titres et des balises *a* pour les rendre cliquable. Le disposition est mis en `flex-direction:column;`. Pour plus de décoration, un personnage a été attaché sur le coin gauche du site tout au long de la navigation (*qui s'enlèvera en version mobile*).  
 ### Le contenu (main)
-![Bat Contenu](https://i.postimg.cc/BvzSLWbS/2023-10-10-11-59-57-Window.png)
+![Bat Contenu](https://i.postimg.cc/BvzSLWbS/2023-10-10-11-59-57-Window.png)  
 Le contenu à été le plus "dur" à réaliser. Il se compose de 3 parties :
 
  1. Le titre
