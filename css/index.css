@@ -95,6 +95,9 @@ html {
     .text{
         color: white;
     }
+    .textenoir{
+        color:black;
+    }
 
     section {
         display: flex;
@@ -112,7 +115,22 @@ html {
         width: 490px;
         /* Égal à la largeur de l'image */
     }
-
+    #slides div[class="metropolis"] {
+        background: rgb(240, 240, 240);
+        height: 295px;
+        /* Égal à la hauteur de l'image */
+        margin: 10px;
+        overflow: hidden;
+        position: relative;
+        width: 490px;
+        /* Égal à la largeur de l'image */
+    }
+    div[class="metropolis"] a{
+        color:black;
+    }
+    div[class="metropolis"] a:hover{
+        color:#86a1de;
+    }
     #slides div img {
         left: 0;
         position: absolute;
@@ -202,14 +220,28 @@ a:hover {
     }
   }
 
-.btn {
-    --btn-padding: 0.75rem 1.25rem;
+  #slides .btn {
+    --btn-padding: 0.50rem 1rem;
     --btn-border: 1px solid var(--secondary-color);
     --btn-radius: 4px;
     position: relative;
     padding: var(--btn-padding);
     color: var(--btn-color,#000);
     background: var(--btn-bg,#fff);
+    border: var(--btn-border);
+    border-radius: var(--btn-radius);
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+#slides div[class="metropolis"] .btn {
+    --btn-padding: 0.50rem 1rem;
+    --btn-border: 1px solid var(--secondary-color);
+    --btn-radius: 4px;
+    position: relative;
+    padding: var(--btn-padding);
+    color: var(--btn-color,rgb(240, 240, 240));
+    background: var(--btn-bg,#0e0e0e);
     border: var(--btn-border);
     border-radius: var(--btn-radius);
     white-space: nowrap;
