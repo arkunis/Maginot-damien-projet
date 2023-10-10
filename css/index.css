@@ -33,7 +33,7 @@ html {
         color: #fff;
     }
 
-    .text {
+    .text, .textenoir {
         display: none;
     }
 
@@ -63,6 +63,7 @@ html {
 
 
 }
+/* fin mobile */
 
 @media screen and (min-width:1024px) {
 
@@ -165,7 +166,7 @@ html {
     }
 
 }
-
+/* fin desktop */
 img {
     width: 100%;
     height: 100%;
