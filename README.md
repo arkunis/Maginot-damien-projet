@@ -33,7 +33,7 @@ Le contenu est basé sur du flex tout comme le titre. Il comporte donc 1 partie 
 
 Comme on peut le voir sur l'image du dessus, une *class* (*.droite et .gauche*) qui prend le contrôle sur le contenu pour afficher le texte à droit ou à gauche de l'image.
 ![Div gauche conteneur](https://i.postimg.cc/2jd5TSSM/2023-10-10-13-29-01-GOTHAM-Opera.png)
-Pour changer le texte d'emplacement, un `flex-direction:row-reverse;`est utilisé dans .batarticle2 pour inverser de place le texte et l'image. 
+Pour changer le texte d'emplacement, un `flex-direction:row-reverse;`est utilisé dans *.droite* pour inverser de place le texte et l'image. 
 #### L'image
 Pour l'image, la classe *.droite img* et *.gauche img* sont là pour limiter la taille de l'image et ainsi éviter une mauvaise adaptation des différents formats d'image que l'on pourrait rencontrer.
 
