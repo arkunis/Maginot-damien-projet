@@ -39,7 +39,7 @@ Pour l'image, la classe *.droite img* et *.gauche img* sont là pour limiter la 
 
 ## Metropolise
 ![Version blanche du site](https://i.postimg.cc/G3MSYk1p/2023-10-10-13-37-17-Window.png)
-Pour la page_3, j'ai voulu rendre le coté héro qui sauve le monde ave un thème blanc (signe de pureté). Pour cela; j'ai ajouté un *id* à ma balise *html* pour ensuite lui donner les différentes couleurs souhaité.
+Pour la page_3, j'ai voulu rendre le coté héro qui sauve le monde avec un thème blanc (signe de pureté). Pour cela; j'ai ajouté un *id* à ma balise *html* pour ensuite lui donner les différentes couleurs souhaité.
 ![VSCode](https://i.postimg.cc/Fsk5HPJv/2023-10-10-13-41-01-pages-css-Formation-DEV-Visual-Studio-Code.png)
 ## Le responsive
 Pour l'adaptation responsive, tout mes blocs flex en *raw* sont passé en *column* pour rendre la superposition des images et du texte visible sur tout les périphériques.  
