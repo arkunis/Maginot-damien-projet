@@ -42,8 +42,8 @@ Pour l'image, la classe *.droite img* et *.gauche img* sont là pour limiter la 
 Pour la page_3, j'ai voulu rendre le coté héro qui sauve le monde ave un thème blanc (signe de pureté). Pour cela; j'ai ajouté un *id* à ma balise *html* pour ensuite lui donner les différentes couleurs souhaité.
 ![VSCode](https://i.postimg.cc/Fsk5HPJv/2023-10-10-13-41-01-pages-css-Formation-DEV-Visual-Studio-Code.png)
 ## Le responsive
-Pour l'adaptation responsive, tout mes blocs flex en *raw* sont passé en *column* pour rendre la superposition des images et du texte visible sur tout les périphériques.
-![responsive batsite](https://i.postimg.cc/CK56c7p5/ezgif-com-gif-maker.gif)
+Pour l'adaptation responsive, tout mes blocs flex en *raw* sont passé en *column* pour rendre la superposition des images et du texte visible sur tout les périphériques.  
+![responsive batsite](https://i.postimg.cc/CK56c7p5/ezgif-com-gif-maker.gif)  
 Comme on peut le voir sur le Gif au-dessus, les personnages sont enlevé avec un `display:none;`et le menu ne comporte que les objets cliquable.
 ### Le responsive de l'index.html
 Pour l'index.html, les effets sont retiré et il ne reste que les images en version cliquable.
